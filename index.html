@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div id='sideNavigation' class='sidenav'>
+        <a href='javascript:void(0)' class='closebtn' onclick='closeNav()' >&times;</a>
+        <a href='#'>About</a>
+        <a href='#'>Blockchains</a>
+        <a href='#'>Support</a>
+    </div> 
+    
+    <div id='main'>
+    <ul id='headerbar'>
+        <li>
+            <a href='#' onclick = 'openNav()'>   
+            <svg width ='30' height='30' id = 'icoOpen'>
+                <path d='M0,5 30,5' stroke='grey' stroke-width='5'/>
+                <path d='M0,14 30,14' stroke='grey' stroke-width='5'/>
+                <path d='M0,23 30,23' stroke='grey' stroke-width='5'/>
+            </svg>
+            </a> 
+        </li>
+        <li id='logo'>Logo</li>
+        <li><button id='wallet'>Connect Wallet</button></li>
+    </ul>
+
+    <div class='subheading'>Discover</div>
+    <div class='maincontent'>
+        <ul class='mainlist'>
+            <li class='items'>BTC</li>
+            <li class='items'>LTC</li>
+            <li class='items'>ETH</li>
+        </ul>
+        <div class='contentcol'>
+            <div class='content'></div>
+            <div class='content'></div>
+            <div class='content'></div>
+        </div>
+    </div>
+    
+    <div class='subheading'>Top Rated</div>
+    <div class='gameBar'>
+        <div class='gameBox'>
+            <div class='gameIcon'>Game<br>Icon</div>
+            <div class='gameTitle'>Name of Game</div>
+        </div>
+        <div class='gameBox'>
+            <div class='gameIcon'>Game<br>Icon</div>
+            <div class='gameTitle'>Name of Game</div>
+        </div>
+        <div class='gameBox'>
+            <div class='gameIcon'>Game<br>Icon</div>
+            <div class='gameTitle'>Name of Game</div>
+        </div>
+        <div class='gameBox'>
+            <div class='gameIcon'>Game<br>Icon</div>
+            <div class='gameTitle'>Name of Game</div>
+        </div>
+        <div class='gameBox'>
+            <div class='gameIcon'>Game<br>Icon</div>
+            <div class='gameTitle'>Name of Game</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
